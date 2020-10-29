@@ -11,9 +11,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: Stack(
-        children: [
-          BottomNavigationBar(
+      bottomNavigationBar: BottomNavigationBar(
             iconSize: 35,
             type: BottomNavigationBarType.fixed,
             backgroundColor: Color(0xFF303F9F),
@@ -60,9 +58,6 @@ class Home extends StatelessWidget {
                   )),
             ],
           ),
-        
-        ],
-      ),
       body: ListView(
         children: [
           Stack(
