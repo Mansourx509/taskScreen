@@ -60,16 +60,7 @@ class Home extends StatelessWidget {
                   )),
             ],
           ),
-          /*Positioned(
-            bottom: 10,
-            child: Padding(
-              padding: const EdgeInsets.only(right: 15, left: 15),
-              child: Divider(
-                color: Colors.white,
-                thickness: 8,
-              ),
-            ),
-          ),*/
+        
         ],
       ),
       body: ListView(
